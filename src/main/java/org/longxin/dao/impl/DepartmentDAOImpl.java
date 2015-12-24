@@ -8,6 +8,7 @@ import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
 public class DepartmentDAOImpl extends HibernateDaoSupport implements DepartmentDAO
 {
+	
 	@SuppressWarnings("unchecked")
 	public List<Department> getAllDepartments()
 	{
