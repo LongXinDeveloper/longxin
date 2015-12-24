@@ -6,9 +6,13 @@ import org.longxin.dao.DepartmentDAO;
 import org.longxin.domains.Department;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
+/**
+ * Add comments
+ * @author zer8szh
+ *
+ */
 public class DepartmentDAOImpl extends HibernateDaoSupport implements DepartmentDAO
 {
-	
 	@SuppressWarnings("unchecked")
 	public List<Department> getAllDepartments()
 	{
