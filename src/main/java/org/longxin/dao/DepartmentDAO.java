@@ -4,11 +4,6 @@ import java.util.List;
 
 import org.longxin.domains.Department;
 
-/**
- * comments
- * @author zer8szh
- *
- */
 public interface DepartmentDAO {
 
 	public List<Department> getAllDepartments();
