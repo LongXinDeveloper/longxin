@@ -10,10 +10,7 @@ pipeline {
     stage('Maven Build') {
       steps {
         sh 'echo "Hello World"'
-        sh '''cd ./longxin
-
-
-'''
+        sh 'mvn package -Dmaven.test.skip=true'
       }
     }
   }
