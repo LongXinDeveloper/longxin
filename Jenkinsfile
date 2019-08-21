@@ -6,5 +6,10 @@ pipeline {
         git 'https://github.com/diaolanshan/longxin.git'
       }
     }
+    stage('Maven Build') {
+      steps {
+        sh 'echo "Hello World"'
+      }
+    }
   }
 }
