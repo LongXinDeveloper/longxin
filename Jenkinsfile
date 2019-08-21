@@ -4,6 +4,7 @@ pipeline {
     stage('Pull Code') {
       steps {
         git 'https://github.com/diaolanshan/longxin.git'
+        sh 'echo "Hello"'
       }
     }
     stage('Maven Build') {
